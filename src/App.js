@@ -46,7 +46,7 @@ function App() {
             <h1>Recipe App</h1>
             <img src={logo} alt="hamburger logo" className="logo" />
             <Switch>
-              <Route exact path="/">
+              <Route exact path="/recipe">
                 <form onSubmit={search} className="input-container">
                   <h3>Search Any Recipe</h3>
                   <input
@@ -60,19 +60,19 @@ function App() {
                   <button>Search</button>
                 </form>
               </Route>
-              <Route path="/meal/:idMeal">
+              <Route path="/recipe/meal/:idMeal">
                 <button className="return">
-                  <Link to="/">Return</Link>
+                  <Link to="/recipe">Return</Link>
                 </button>
               </Route>
             </Switch>
           </nav>
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/recipe">
               <RecipeList recipe={recipe} />
             </Route>
-            <Route path="/meal/:idMeal">
-              <Link to="/">Return</Link>
+            <Route path="/recipe/meal/:idMeal">
+              <Link to="/recipe">Return</Link>
               <RecipeDetails />
             </Route>
           </Switch>
