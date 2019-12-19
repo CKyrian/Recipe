@@ -11,7 +11,7 @@ export default function Recipe({ meal }) {
           <p>{meal.strArea} Cuisine</p>
         </div>
         <button>
-          <Link to={`/meal/${meal.idMeal}`}>details</Link>
+          <Link to={`/recipe/meal/${meal.idMeal}`}>details</Link>
         </button>
       </div>
     </div>
