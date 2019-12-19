@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/recipe/static/css/main.eaffaac6.chunk.css",
-    "main.js": "/recipe/static/js/main.03caf381.chunk.js",
-    "main.js.map": "/recipe/static/js/main.03caf381.chunk.js.map",
+    "main.js": "/recipe/static/js/main.dd4bdf15.chunk.js",
+    "main.js.map": "/recipe/static/js/main.dd4bdf15.chunk.js.map",
     "runtime-main.js": "/recipe/static/js/runtime-main.41e0d74a.js",
     "runtime-main.js.map": "/recipe/static/js/runtime-main.41e0d74a.js.map",
     "static/js/2.58e90072.chunk.js": "/recipe/static/js/2.58e90072.chunk.js",
     "static/js/2.58e90072.chunk.js.map": "/recipe/static/js/2.58e90072.chunk.js.map",
     "index.html": "/recipe/index.html",
-    "precache-manifest.e00375460cda9b2bc3f1c3582519a403.js": "/recipe/precache-manifest.e00375460cda9b2bc3f1c3582519a403.js",
+    "precache-manifest.30ca9c027d5e869853c5dd5a59988bd3.js": "/recipe/precache-manifest.30ca9c027d5e869853c5dd5a59988bd3.js",
     "service-worker.js": "/recipe/service-worker.js",
     "static/css/main.eaffaac6.chunk.css.map": "/recipe/static/css/main.eaffaac6.chunk.css.map",
     "static/media/App.css": "/recipe/static/media/backcground.bfdbacc8.jpg"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.41e0d74a.js",
     "static/js/2.58e90072.chunk.js",
     "static/css/main.eaffaac6.chunk.css",
-    "static/js/main.03caf381.chunk.js"
+    "static/js/main.dd4bdf15.chunk.js"
   ]
 }
